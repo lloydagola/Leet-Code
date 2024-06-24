@@ -1,5 +1,5 @@
 function isPalindrome(x: number): boolean {
-    //if(!x) return false;
+    if(x === undefined || x === null) return false;
     if(x < 0 ) return false;
     
   const numStringArray = String(x).split('');
