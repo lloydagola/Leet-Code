@@ -39,10 +39,11 @@ class TimeLimitedCache {
     
 }
 
-
+/*
   const timeLimitedCache = new TimeLimitedCache()
   timeLimitedCache.set(1, 42, 0); // false
   timeLimitedCache.get(1) // 42
   timeLimitedCache.count() // 1
  
 console.log(timeLimitedCache)
+*/
